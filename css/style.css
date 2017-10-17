@@ -1,0 +1,92 @@
+body {
+  background: #97db87
+}
+#animatedMe {
+  padding: 2em 5em;
+  font: normal 40px/50px Arial, sans-serif;
+  color: #999;
+}
+#animatedMe p {
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+}
+#animatedMe b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+#animatedMe span1 {
+ display: inline-block;
+color: #e74c3c;
+position: relative;
+white-space: nowrap;
+top: 0;
+left: 0;
+-webkit-animation: move 5s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 1s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+80% { top: -200px; }
+}
+
+.tilesContainer {
+  font-weight: bold;
+  font-size : 1.5em;  
+}
+
+.tiles {
+  color: white;
+  background: blue;
+  padding: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.color1 {
+  background: #363237;
+}
+
+.color1:hover {
+  background: #011A27;
+}
+
+.color2 {
+  background: #73605B;
+}
+
+.color2:hover {
+  background: #063852;
+}
+.color3 {
+  background: #D09683;
+}
+
+.color3:hover {
+  background: #F0810F;
+}
+.color4 {
+  background: #838442;
+}
+.color4:hover {
+  background: #DB9501;
+}
+
+.contactMeTiles {
+  background: #258039; 
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.3em;
+}
