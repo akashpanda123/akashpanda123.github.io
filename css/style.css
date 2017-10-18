@@ -3,8 +3,10 @@ body {
 }
 #animatedMe {
   padding: 2em 5em;
-  font: normal 40px/50px Arial, sans-serif;
+  font: normal 30px/40px Arial, sans-serif;
   color: #999;
+  float: left;
+  display: inline-block;
 }
 #animatedMe p {
   height: 50px;
