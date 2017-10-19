@@ -1,0 +1,138 @@
+{
+	"page_title": "Akash Panda | Lead Engineer | Info Edge (India) Ltd.",
+	"name": "Akash Panda",
+	"website": "http://www.akashpanda.com",
+	"profiles": {
+		"linked_in": {
+			"type": "linked_in",
+			"link": "http://www.linkedin.com/in/akashpanda/"
+		}
+	},
+	"summary": "Graduated in 2015 as a Computer Science and Engineering graduate with a CGPA of 8.66. and currently working as a Lead Engineer with Info Edge (India) Ltd. Hands on with bunch of open source technologies. Loves to learn new things. Focus on execution excellence and customer satisfaction.",
+	"experience": {
+		"0": {
+			"from": "April 1,2017",
+			"to": "present",
+			"position": "Lead Engineer",
+			"company": "Info Edge India Ltd.",
+			"city": "Noida (India)",
+			"desc": [
+				"Built and deployed scalable, highly available and modular software products.",
+				"Identified and suggested new technologies for enhancing product value.",
+				"Process Adherance – Agile and JIRA",
+				"Health check of applications and servers."
+			]
+		},
+		"1": {
+			"from": "June 01, 2016",
+			"to": "March 31, 2017",
+			"position": "Senior Software Engineer",
+			"company": "Info Edge India Ltd.",
+			"city": "Noida (India)",
+			"desc": []		
+		},
+		"2": {
+			"from": "June 8, 2015",
+			"to": "May 31,2016",
+			"position": "Software Engineer",
+			"company": "Info Edge India Ltd.",
+			"city": "Noida (India)",
+			"desc": []		
+		},
+		"4": {
+			"from": "May 19, 2014",
+			"to": "July 10, 2014",
+			"position": "Software Development Intern",
+			"company": "Connectem Software Systems Pvt. Ltd.",
+			"city": "Navi Mumbai (India)",
+			"project": "Project : Enhancement of nw-EPC source code, which is an open source implementation of S-GW and P-GW."
+		}
+	},
+	"education": {
+		"0" : {
+			"type": "grad",
+			"course": "B.Tech.",
+			"dop": "May 2015",
+			"spec": "Computer Science and Engineering",
+			"school": "NIT Agartala, India",
+			"score_type": "CGPA",
+			"score": "8.66",
+			"max_score": "10"
+		},
+		"1": {
+			"type": "school",
+			"course": "Class XII",
+			"dop": "March 2010",
+			"school": "Emmanuel Mission School, Kota, India",
+			"score_type": "percentage",
+			"score": "77.8",
+			"max_score": "100"
+		},
+		"2": {
+			"type": "school",
+			"course": "Class X",
+			"dop": "March 2008",
+			"school": "Delhi Public School, Damanjodi, India",
+			"score_type": "percentage",
+			"score": "90",
+			"max_score": "100"
+		}
+	},
+	"skills": {
+		"technologies": {
+			"title": "Technologies",
+			"list": [
+				"C","C++","PHP","JavaScript","Rabbitmq","Redis","MySQL"
+			]
+		},
+		"frameworks": {
+			"title": "PHP Frameworks",
+			"list": [
+				"Symfony 2.3 , 1.0 , 1.4",
+				"Codeignitor",
+				"Phalcon"
+			]
+		}
+	},
+	"contact": {
+		"phone": [
+			{
+				"number" : "+91-9654659108",
+				"type": "primary"
+			},
+			{
+				"number" : "+91-7978559130",
+				"type": "secondary"
+			}
+		],
+		"email": [
+			"akashpanda123@gmail.com",
+			"akashpandacool@hotmail.com"
+		],
+		"address": {
+			"line1" :"c/o Shankarsana Panda",
+			"line2" :"At/P.O. Linepara",
+			"line3" :"Patnagarh",
+			"line4" :"Dist. Bolangir(Odisha)",
+			"pin": "767025"
+		}
+	},
+	"personal_details": [
+		{
+			"title": "Father's Name" ,
+			"value": "Shankarsana Panda"
+		},
+		{
+			"title": "Mother's Name" ,
+			"value": "Arati Panda"
+		},
+		{
+			"title": "DOB",
+			"value": "11th November, 1992"
+		}
+	],
+	"declaration": {
+		"text": "I hereby declare that the above written particulars are true to the best of my knowledge and belief.",
+		"place": "Noda"
+	}
+}

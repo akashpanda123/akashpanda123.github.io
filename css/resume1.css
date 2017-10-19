@@ -1,0 +1,29 @@
+.mainBody {
+	text-align: center;
+}
+.myResume {
+	display: inline-block;
+	text-align: left;
+	width: 1000px;
+}
+.right {
+	padding-left: 50px;
+}
+.pageHeading {
+	font-size: 1.2em;
+	text-align: right;
+	padding: 30px;
+	border-bottom: 1px solid black; 
+	margin-bottom: 30px;
+}
+.pageHeadingName {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+#educationTable tr:nth-child(odd) {background-color: #f2f2f2}
+
+.actualInformation {
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}

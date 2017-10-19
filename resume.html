@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/resume1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="js/resume.js"></script>
+<body>
+<div class="mainBody">
+	<div class="myResume" ng-app="myApp" ng-controller="myResume">
+		<div class="row pageHeading">
+			<div class="col-sm-12">
+				<div class="row pageHeadingName">
+					<div class="col-sm-12">{{info.name}}</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">{{info.contact.phone[0].number}}, {{info.contact.email[0]}}</div>
+				</div>
+			</div>
+		</div>
+		<div class="row actualInformation">
+			<div class="col-sm-3">
+				<strong>Website:</strong><br/>
+				<a href="{{info.website}}" target="_blank">{{info.website}}</a>
+				<br /><br />
+				<strong>LinkedIn Profile:</strong><br/>
+				<a href="{{info.profiles.linked_in.link}}" target="_blank">{{info.profiles.linked_in.link}}</a>
+				<br /><br />
+				<div class="row" ng-repeat="x in info.skills">
+					<div class="col-sm-12">
+						<strong>{{x.title}}</strong>
+						<ul>
+							<li ng-repeat="y in x.list">
+								{{y}}
+							</li>
+						</ul>
+					</div>
+				</div>
+				<br />
+				<strong>Contact</strong><br>
+				<div class="row" ng-repeat="x in info.contact.address">
+					<div class="col-sm-12">
+						{{x}}
+					</div>
+				</div>
+				<br>
+				<div class="row" ng-repeat="x in info.contact.phone">
+					<div class="col-sm-12">
+						{{x.number}}
+					</div>
+				</div>
+				<br>
+				<div class="row" ng-repeat="x in info.contact.email">
+					<div class="col-sm-12">
+						{{x}}
+					</div>
+				</div>
+				<br />
+				<strong>Personal Details</strong><br>
+				<div class="row" ng-repeat="x in info.personal_details">
+					<div class="col-sm-12">
+						<strong>{{x.title}} :</strong> {{x.value}}
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-9  right">
+				<div class="row">
+					<div class="col-sm-12">
+						<strong>Summary</strong><br />
+						{{info.summary}}
+					</div>
+				</div>
+				<br />
+				<div class="row">
+					<div class="col-sm-12">
+						<strong>Experience</strong><br />
+						<div class="row" ng-repeat="x in info.experience">
+							<div class="col-sm-12">
+								{{x.from}} to {{x.to}} <br />
+								{{x.position}} <br />
+								{{x.company}}, {{x.city}}
+								<ul>
+									<li ng-repeat="y in x.desc">
+										{{y}}
+									</li>
+								</ul>
+							</div>
+						</div>		
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<strong>Education</strong><br />
+						<table width="100%" id="educationTable">
+							<tr ng-repeat="x in info.education">
+								<td>{{x.dop}}</td>
+								<td>
+									{{x.course}} {{x.spec}}<br />
+									{{x.score}} of {{x.max_score}}
+								</td>
+								<td>{{x.school}}</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="text-align: center;">
+			&copy;2017 Akash Panda
+		</div>
+	</div>
+</div>
+</body>
+</html>
