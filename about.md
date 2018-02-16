@@ -1,4 +1,5 @@
 ---
+layout: page
 title: About
 permalink: /about/
 ---
@@ -12,27 +13,12 @@ permalink: /about/
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/about-me/css/style.css">
+	
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<script src="https://use.fontawesome.com/4df39b8bc4.js"></script>
 	<title>Akash Panda : Lead Engineer : Info Edge </title>
 </head>
 <body>
-<div class="row">
-<div class="LI-profile-badge col-sm-2"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="akashpanda"><a class="LI-simple-link" href='https://in.linkedin.com/in/akashpanda?trk=profile-badge'>Akash Panda</a></div>
-<div class="col-sm-10" id="animatedMe">
-<p>I'm a</p>
-<b>
-  <span1>
-    Computer Science and Engineering graduate<br /> 
-    with a CGPA of 8.66<br />
-    currently working as a Lead Engineer with Info Edge<br />
-    Hands on with bunch of open source technologies.<br />
-    Focus on execution excellence and customer satisfaction.
-    </span1>
-</b>
-</div>
-</div>
 <div class="row tilesContainer">
 	<a target="_blank" href="/about-me/resume.html"><div class="col-md-6 tiles color1">VIEW RESUME</div></a>
 	<a target="_blank" href="/about-me/downloads/Akash_Panda_LE_NITAgartala.pdf"><div class="col-md-6 tiles color2">DOWNLOAD RESUME</div></a>
@@ -57,3 +43,59 @@ permalink: /about/
 </div>
 </body>
 </html>
+
+<style type="text/css">
+	.tilesContainer {
+  font-weight: bold;
+  font-size : 1.5em;  
+}
+
+.tiles {
+  color: white;
+  background: blue;
+  padding: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.color1 {
+  background: #363237;
+}
+
+.color1:hover {
+  background: #011A27;
+}
+
+.color2 {
+  background: #73605B;
+}
+
+.color2:hover {
+  background: #063852;
+}
+.color3 {
+  background: #D09683;
+}
+
+.color3:hover {
+  background: #F0810F;
+}
+.color4 {
+  background: #838442;
+}
+.color4:hover {
+  background: #DB9501;
+}
+
+.contactMeTiles {
+  background: #258039; 
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.3em;
+}
+</style>
