@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Maxumum Profit in Stock Divide and Conquer Solution"
-date:   2018-02-16 22:36:16 +0530
+date:   2018-02-24 22:36:16 +0530
 categories: problem implementation
 ---
 

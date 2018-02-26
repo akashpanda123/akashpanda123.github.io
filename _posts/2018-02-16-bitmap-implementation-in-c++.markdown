@@ -2,7 +2,7 @@
 layout: post
 title:  "Bitmap Implementation in C++"
 date:   2018-02-16 22:36:16 +0530
-categories: jekyll update
+categories: problem implementation
 ---
 Implementing a Bitmap
 
@@ -10,7 +10,10 @@ We need to design a class to implement a bitmap.
 Requirements: 
    A constructor to declare how many bits needed to be stored. 
    Functions to set bit and retrive bit. 
-
+<br/>
+<br/>
+<a href = "https://www.onlinegdb.com/rJqWqY4Df" target="_blank">Try Here</a>
+ 
 {% highlight ruby %}
 #include <iostream>
 #include <cmath>
