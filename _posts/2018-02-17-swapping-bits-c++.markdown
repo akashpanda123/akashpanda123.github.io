@@ -4,6 +4,7 @@ title:  "Swapping bits in C++"
 date:   2018-02-16 22:36:16 +0530
 categories: jekyll update
 ---
+
 Swapping bits
     We need to implement a function to swap two bits in an integer in an efficient manner.
 

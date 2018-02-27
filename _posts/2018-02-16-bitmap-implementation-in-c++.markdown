@@ -4,6 +4,7 @@ title:  "Bitmap Implementation in C++"
 date:   2018-02-16 22:36:16 +0530
 categories: problem implementation
 ---
+
 Implementing a Bitmap
 
 We need to design a class to implement a bitmap. 
